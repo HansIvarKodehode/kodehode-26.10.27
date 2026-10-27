@@ -97,3 +97,6 @@ iframe {
   max-width: 100%;
   border-radius: 8px;
 }
+video {
+  aspect-ratio: 16/9;
+}

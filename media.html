@@ -28,13 +28,15 @@
 
         <!-- Video demo goes here -->
         <video
-          src="media/example-video.mp4"
+          src="media/exampleVideo.mp4"
           controls
-          autoplay
+          poster="media/paint.avif"
           muted
           loop
-          poster="media/paint.avif"
-        ></video>
+        >
+          <source src="media/exampleVideo.mp4" type="video/mp4" />
+          Your video does not support the video formats.
+        </video>
       </section>
 
       <!-- VIDEO ATTRIBUTES -->
@@ -60,6 +62,7 @@
         <p>We use the <code>&lt;audio&gt;</code> tag to add sound or music.</p>
 
         <!-- Audio demo goes here -->
+        <audio src="media/funk.mp3" controls></audio>
       </section>
 
       <!-- AUDIO ATTRIBUTES -->
@@ -87,6 +90,10 @@
         </p>
 
         <!-- iframe demo goes here -->
+        <iframe
+          src="https://images.unsplash.com/photo-1578301978018-3005759f48f7?q=80&w=844&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+          frameborder="0"
+        ></iframe>
       </section>
 
       <!-- IFRAME NOTES -->
